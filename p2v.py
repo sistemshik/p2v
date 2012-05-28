@@ -274,6 +274,7 @@ def main():
             check_config_local(conf)
             check_config_remote(conf)
             stop_vm(conf)
+            mkfs(conf)
             dump_physical(conf)
             get_dumps(conf)
             restore_vm(conf)
