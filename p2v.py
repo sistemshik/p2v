@@ -254,7 +254,7 @@ def main():
     """Main function, calls all other ones"""
 
     if len(sys.argv) < 3:
-        sys.exit('Usage: %s <servername> <action> (check|dump|get|restore|full)' % sys.argv[0])
+        sys.exit('Usage: %s <servername> <action> (check|dump|restore|full)' % sys.argv[0])
 
     server = sys.argv[1]
     action = sys.argv[2]
