@@ -1,6 +1,5 @@
+#!/usr/bin/python
 """Script for making dumps from virtual servers and restoring it to VM's"""
-# TODO
-# optimize remote partition checking
 
 import sys
 import ConfigParser
